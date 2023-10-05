@@ -11,7 +11,6 @@ class ResultsScreen extends StatelessWidget {
   final void Function() restartQuiz;
 
   List<Map<String, Object>> getSummaryData() {
-    print(chosenAnswers);
     final List<Map<String, Object>> summaryData = [];
 
     for (var i = 0; i < chosenAnswers.length; i++) {
